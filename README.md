@@ -15,6 +15,6 @@ A program that can use twitter conversations from the FPL community to update me
 ## Making contributions
 1. Make a new branch: `git checkout -b name-of-my-branch`
 2. Write some code, save your changes.
-3. Run `black .` to lint. This helps keep our code nicely formatted. The `.` runs black on the whole directory.
+3. Run `black .` to auto-format. This helps keep our code nice and easy to read. The `.` runs black on the whole directory.
 4. Use `git add`/`git commit`/`git push` to make your changes.
 5. When you're ready to merge your changes to main, use `gh pr create` to create a new pull request. (I normally use the "continue in browser" option to write a description of the changes).
