@@ -1,4 +1,5 @@
 # injury-memos
+A program that can use twitter conversations from the FPL community to update me on injuries or in the know benchings on my team. This will save me from having to scour twitter myself leading up to the deadline.
 
 ## Set-Up
 1. Install the github CLI if you don't already have it (`brew install gh`).
