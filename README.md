@@ -8,8 +8,9 @@ A program that can use twitter conversations from the FPL community to update me
 4. Install python 3.10: `pyenv install 3.10.0`
 5. Create a new virtualenv for this project called injury-memos: `pyenv virtualenv 3.10.0 injury-memos`
 6. Set the virtualenv to be automatically activated for the project. Assuming you're still in the injury-memo root directory: `pyenv local injury-memos`
-7. From the root directory: `pip install -r requirements.txt` to install requirements to the injury-memos virtualenv.
-8. 🎉
+7. `pyenv version` should now print `injury-memos`, but if it doesn't, run `pyenv activate injury-memos` to activate the virtualenv
+8. From the root directory: `pip install -r requirements.txt` to install requirements to the injury-memos virtualenv.
+9. 🎉
 
 ## Making contributions
 1. Make a new `git checkout -b name-of-my-branch`
